@@ -1,0 +1,94 @@
+.component{
+    display:flex;
+    width: 400px;
+    height:600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFCCCC;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+
+.title{
+    color: ivory;
+    margin-bottom: 20px;
+    height: 50px;
+    background-color: #ff9999;
+    font-size: 200%;
+    border-radius: 10px;
+}
+
+.button-reset {
+    width: 80px;
+    height: 40px;
+    color: ivory;
+    background-color: #996699;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.button-reset:active {
+    background-color: #FFCCCC;
+}
+
+
+
+.capacity{
+    margin-top: 20px;
+    height: 50px;
+    width: 200px;
+    color: ivory;
+    background-color: #ff9999;
+    font-size: 200%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.count{
+    width: 150px;
+    height: 100px;
+    line-height: 100px;
+    vertical-align: middle;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;   
+    color: ivory !important;
+    background-color: #ff9999;
+    font-size: 500%;
+    border-radius: 20px;
+}
+
+.message{
+    height: 200px;
+    margin-top: 20px;
+}
+
+.message .inner{
+    width: 300px;
+    height: 100px;
+    line-height: 100px;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    color: ivory;
+    background-color: #ff9999;
+    border-radius: 5px;
+    font-size: 125%;
+    padding: 5px;
+}
+
+.button-changedata{
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+    color: ivory !important;
+    font-size: xx-large;
+    border-radius: 10px;
+    background-color: #996699;
+}
+
+.button-changedata:active{
+    background-color: #FFCCCC;
+}
