@@ -12,10 +12,11 @@
 
 .title{
     color: ivory;
+    text-align: center;
     margin-bottom: 20px;
     height: 50px;
     background-color: #ff9999;
-    font-size: 200%;
+    font-size: 2rem;
     border-radius: 10px;
 }
 
@@ -26,6 +27,7 @@
     background-color: #996699;
     margin-left: 10px;
     border-radius: 5px;
+    font-size: 1.3rem;
 }
 
 .button-reset:active {
@@ -40,7 +42,8 @@
     width: 200px;
     color: ivory;
     background-color: #ff9999;
-    font-size: 200%;
+    font-size: 2rem;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
@@ -49,6 +52,7 @@
 .count{
     width: 150px;
     height: 100px;
+    text-align: center;
     line-height: 100px;
     vertical-align: middle;
     margin-top: 20px;
@@ -56,17 +60,18 @@
     margin-right: auto;   
     color: ivory !important;
     background-color: #ff9999;
-    font-size: 500%;
+    font-size: 5rem;
     border-radius: 20px;
 }
 
 .message{
     height: 200px;
-    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .message .inner{
-    width: 300px;
+    width: 350px;
     height: 100px;
     line-height: 100px;
     vertical-align: middle;
@@ -75,16 +80,20 @@
     color: ivory;
     background-color: #ff9999;
     border-radius: 5px;
-    font-size: 125%;
+    font-size: 1.3rem;
     padding: 5px;
+}
+
+.button-group{
+    text-align:center;
 }
 
 .button-changedata{
     margin-top: 20px;
     width: 100px;
     height: 50px;
-    color: ivory !important;
-    font-size: xx-large;
+    color: ivory;
+    font-size: 2.5rem;
     border-radius: 10px;
     background-color: #996699;
 }

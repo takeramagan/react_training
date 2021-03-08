@@ -44,7 +44,7 @@ export const Counter: React.FC<PropsType> = ({max}) => {
                     </div>
                 </div>
                 <div style={{height: 200}}>
-                    <Button.Group >
+                    <Button.Group className={styles['button-group']}>
                         <Button 
                             className={styles['button-changedata']} 
                             onClick={() => count > 0 && setCount(count - 1)} 
